@@ -1,0 +1,4 @@
+baseURL = "https://shoutinginfrench.com"
+languageCode = "en-us"
+title = "shoutinginfrench"
+theme = "ananke"
