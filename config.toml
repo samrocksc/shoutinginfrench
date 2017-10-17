@@ -1,5 +1,8 @@
 baseURL = "https://shoutinginfrench.com"
 languageCode = "en-us"
+builddrafts = false
+canonifyurls = false
+
 title = "shoutinginfrench"
 theme = "sif-hugo"
 introduction = "Developer from Phoenix, AZ"
@@ -52,7 +55,12 @@ highlightjs = true
     weight = 200
     url = "/about/"
 [[menu.main]]
-    name = "coderag"
-    identifier = "coderag"
+    name = "resume"
+    identifier = "resume"
     weight = 300
+    url = "/resume/"
+[[menu.main]]
+    name = "portfolio"
+    identifier = "coderag"
+    weight = 40
     url = "/coderag/"
